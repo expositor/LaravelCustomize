@@ -4,7 +4,7 @@ curl -L -o paths.php https://raw.github.com/expositor/LaravelCustomize/master/pa
 curl -L -o database.php https://raw.github.com/expositor/LaravelCustomize/master/database.php
 curl -L -o remote.php https://raw.github.com/expositor/LaravelCustomize/master/remote.php
 
-mv index.php /vagrant/laravel/public/
-mv paths.php /vagrant/laravel/bootstrap/
-mv database.php /vagrant/laravel/app/config/
-mv remote.php /vagrant/laravel/app/config/
+sudo mv index.php /vagrant/laravel/public/
+sudo mv paths.php /vagrant/laravel/bootstrap/
+sudo mv database.php /vagrant/laravel/app/config/
+sudo mv remote.php /vagrant/laravel/app/config/
